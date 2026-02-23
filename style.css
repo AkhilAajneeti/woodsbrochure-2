@@ -679,6 +679,14 @@ body {
     justify-content: center;
     margin-right: 0px!important;
   }
+  .btn-theme {
+  background-color: #77c84b;
+  color: white;
+  border: none;
+  padding: 13px 22px;
+  font-size: 19px;
+}
+
 }
 
 .text.text2{
