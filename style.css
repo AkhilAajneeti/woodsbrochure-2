@@ -175,7 +175,7 @@ body {
   .banner-bottom-strip {
     /* background: rgba(255, 255, 255, 0.77); */
     position: absolute;
-    bottom: 35px;
+    bottom: 30px;
     left: 0;
     right: 0;
     font-size: 1.2rem;
@@ -682,5 +682,5 @@ body {
 }
 
 .text.text2{
-  font-size: 32px!important;
+  font-size: 26px!important;
 }
