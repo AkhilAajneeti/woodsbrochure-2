@@ -234,9 +234,9 @@ body {
   }
 
   .btn-theme-2 {
-    padding: 12px 14px;
-    font-size: 14px;
-    margin-left: 2px;
+    padding: 10px 8px;
+    font-size: 12px;
+    margin-left: 0px;
   }
 
   .text {
@@ -502,6 +502,7 @@ body {
 .fs-40 {
   font-size: 40px;
 }
+
 .fs-30 {
   font-size: 30px;
 }
@@ -666,29 +667,32 @@ body {
   justify-content: end;
   margin-right: 320px;
 }
+
 @media (max-width:1024px) {
   .newButton {
     display: flex;
     justify-content: end;
-    margin-right: 200px!important;
+    margin-right: 200px !important;
   }
 }
+
 @media (max-width:768px) {
   .newButton {
     display: flex;
     justify-content: center;
-    margin-right: 0px!important;
+    margin-right: 0px !important;
   }
+
   .btn-theme {
-  background-color: #77c84b;
-  color: white;
-  border: none;
-  padding: 13px 22px;
-  font-size: 18px;
-}
+    background-color: #77c84b;
+    color: white;
+    border: none;
+    padding: 13px 22px;
+    font-size: 18px;
+  }
 
 }
 
-.text.text2{
-  font-size: 26px!important;
+.text.text2 {
+  font-size: 26px !important;
 }
