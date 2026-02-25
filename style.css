@@ -159,7 +159,7 @@ body {
 @media screen and (max-width: 480px) {
   .section-3 {
     padding-bottom: 50px;
-    padding-top: 100px;
+    padding-top: 50px;
   }
 
   .banner-bottom-strip h3 {
@@ -175,7 +175,7 @@ body {
   .banner-bottom-strip {
     /* background: rgba(255, 255, 255, 0.77); */
     position: absolute;
-    bottom: 30px;
+    bottom: 50px;
     left: 0;
     right: 0;
     font-size: 1.2rem;
