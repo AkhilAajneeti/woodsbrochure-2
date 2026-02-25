@@ -96,7 +96,16 @@ async function handleFormSubmit(formId) {
       console.log("Response data:", data);
 
       // Redirect to thankyou.html after successful form submission
-      window.location.href = "/woodsBrochure.pdf"; // Change the path if necessary
+      // window.location.href = "/woodsBrochure.pdf"; // Change the path if necessary
+      // Redirect based on form ID
+      if (formId === "ajax-header-contact") {
+        // First form → Thank You Page
+        window.location.href = "/thankyou.html";
+
+      } else if (formId === "ajax-header-contact-2") {
+        // Second form → Download PDF
+        window.location.href = "/thank-you.html";
+      }
     } catch (error) {
       console.error("Error:", error);
 
