@@ -38,8 +38,8 @@ async function handleFormSubmit(formId) {
     let missingFields = [];
     if (!name) missingFields.push("Name");
     if (!phone) missingFields.push("Phone");
-    if (!city) missingFields.push("City");
-    if (!ef_select) missingFields.push("ef_select");
+    // if (!city) missingFields.push("City");
+    // if (!ef_select) missingFields.push("ef_select");
 
     if (missingFields.length > 0) {
       Swal.close(); // Close the waiting indicator
@@ -113,3 +113,4 @@ async function handleFormSubmit(formId) {
 
 // Initialize forms
 handleFormSubmit("ajax-header-contact"); // First form
+handleFormSubmit("ajax-header-contact-2"); // second form

@@ -40,13 +40,12 @@
 <body>
   <section class="hero-section position-relative text-white">
     <!-- Top bar: logo & button -->
-    <div class="container-fluid d-flex align-items-end justify-content-between py-3 px-4">
-      <button class="btn btn-theme-2 mt-1 font-weight-bold" data-toggle="modal"
-        data-target="#virtualTourModal">
+    <div class="container-fluid d-flex align-items-end justify-content-between py-sm-3 px-sm-4 ps-0 pe-0 pt-2">
+      <button class="btn btn-theme-2 mt-1 font-weight-bold" data-toggle="modal" data-target="#virtualTourModal">
         <span>Request a Private Conversation</span>
       </button>
-      <button class="btn btn-theme-2 mt-1 font-weight-bold" data-toggle="modal"
-        data-target="#virtualTourModal">
+      <button class="btn btn-theme-2 mt-1 font-weight-bold" data-toggle="modal" data-target="#viewBrochureModal"
+        data-title="View Brochure" data-btntext="Get Brochure">
         View Brochure
       </button>
     </div>
@@ -59,14 +58,15 @@
       <p class="lead mb-4" data-aos="fade-up" data-aos-duration="2000">
         The - Woods Barog is Owner-Only — No Airbnb. No Short-Term Guests. Only Peaceful Neighbours.
       </p>
-      <button class="btn btn-theme-2 mt-1 font-weight-bold d-flex flex-column" data-toggle="modal"
-        data-target="#virtualTourModal">
-        <span>Request a Private Conversation</span>
-      </button>
-      <button class="btn btn-theme-2 mt-1 font-weight-bold d-flex flex-column" data-toggle="modal"
-        data-target="#virtualTourModal">
-        View Brochure
-      </button>
+      <div class="d-sm-flex w-50 justify-content-center d-none" style="gap: 10px;">
+        <button class="btn btn-theme-2 mt-1 font-weight-bold" data-toggle="modal" data-target="#virtualTourModal">
+          <span>Request a Private Conversation</span>
+        </button>
+        <button class="btn btn-theme-2 mt-1 font-weight-bold" data-toggle="modal" data-target="#viewBrochureModal"
+          data-title="View Brochure" data-btntext="Get Brochure">
+          View Brochure
+        </button>
+      </div>
     </div>
 
     <!-- Bottom Strip -->
@@ -94,19 +94,18 @@
             <li>Frequent guests bring noise and disturb the peace</li>
             <li>A peaceful home starts to feel like a hotel</li>
           </ul>
-          <!-- <div class="d-flex justify-content-center align-items-center w-100">
-            <button class="btn btn-theme mt-3 d-flex flex-column" data-toggle="modal" data-target="#virtualTourModal">
-              <span>Request a Private Conversation</span>
-              View Brochure
-            </button>
-          </div> -->
+
         </div>
         <div class="col-12 order-2 newButton">
-          <button class="btn btn-theme mt-3 d-inline-flex flex-column" data-toggle="modal"
-            data-target="#virtualTourModal">
-            <span>Request a Private Conversation</span>
-            View Brochure
-          </button>
+          <div class="d-flex w-50 justify-content-center" style="gap: 10px;">
+            <button class="btn btn-theme-2 mt-1 font-weight-bold " data-toggle="modal" data-target="#virtualTourModal">
+              <span>Request a Private Conversation</span>
+            </button>
+            <button class="btn btn-theme-2 mt-1 font-weight-bold w-100" data-toggle="modal"
+              data-target="#ViewBrochureModal" data-title="View Brochure" data-btntext="Get Brochure">
+              View Brochure
+            </button>
+          </div>
         </div>
       </div>
 
@@ -156,12 +155,16 @@
 
 
         </div>
-        <div class="col-12 col-md-12 order-2 newButton">
-          <button class="btn btn-theme mt-3 d-inline-flex flex-column" data-toggle="modal"
-            data-target="#virtualTourModal">
-            <span>Request a Private Conversation</span>
-            View Brochure
-          </button>
+        <div class="col-12 order-2 newButton">
+          <div class="d-flex w-50 justify-content-center" style="gap: 10px;">
+            <button class="btn btn-theme-2 mt-1 font-weight-bold" data-toggle="modal" data-target="#virtualTourModal">
+              <span>Request a Private Conversation</span>
+            </button>
+            <button class="btn btn-theme-2 mt-1 font-weight-bold w-100" data-toggle="modal"
+              data-target="#viewBrochureModal">
+              View Brochure
+            </button>
+          </div>
         </div>
       </div>
     </div>
@@ -175,8 +178,12 @@
           <div class="leftItem text-center">
             <p>We know how disappointing it is to visit
               hill homes that are crowded and commercial</p>
-            <button class="btn btn-theme mt-3 display" data-toggle="modal" data-target="#virtualTourModal">
+            <button class="btn btn-theme-2 mt-1 font-weight-bold display w-75" data-toggle="modal"
+              data-target="#virtualTourModal">
               <span>Request a Private Conversation</span>
+            </button>
+            <button class="btn btn-theme-2 mt-1 font-weight-bold w-75 display" data-toggle="modal"
+              data-target="#viewBrochureModal" data-title="View Brochure" data-btntext="Get Brochure">
               View Brochure
             </button>
           </div>
@@ -185,7 +192,7 @@
           <h1 class="text" data-aos="fade-up" data-aos-duration="1000">
             Why The Woods - <br> Barog Is Different From Every Other Hill Homes:
           </h1>
-          <ul class="text-center">
+          <ul>
             <li>
               <i class="fa-solid fa-circle-check" style="color: green"></i> Only 3
               Apartments Per Floor
@@ -199,11 +206,17 @@
               Designed for Privacy, Light & Ventilation
             </li>
           </ul>
-          <button class="btn btn-theme mt-3 d-block d-sm-none d-flex flex-column" data-toggle="modal"
-            data-target="#virtualTourModal">
-            <span>Request a Private Conversation</span>
-            View Brochure
-          </button>
+        </div>
+        <div class="col-12 order-2 newButton d-sm-none">
+          <div class="d-flex w-50 justify-content-center" style="gap: 10px;">
+            <button class="btn btn-theme-2 mt-1 font-weight-bold" data-toggle="modal" data-target="#virtualTourModal">
+              <span>Request a Private Conversation</span>
+            </button>
+            <button class="btn btn-theme-2 mt-1 font-weight-bold w-100" data-toggle="modal"
+              data-target="#viewBrochureModal" data-title="View Brochure" data-btntext="Get Brochure">
+              View Brochure
+            </button>
+          </div>
         </div>
       </div>
 
@@ -220,10 +233,15 @@
           <h1 data-aos="fade-up" data-aos-duration="1000" style="text-align: center; font-size: 28px;">We built Phase 2
             for people who want peace, not guests...</h1>
           <div class="d-flex justify-content-center align-items-center w-100">
-            <button class="btn btn-theme mt-3 d-flex flex-column" data-toggle="modal" data-target="#virtualTourModal">
-              <span>Request a Private Conversation</span>
-              View Brochure
-            </button>
+            <div class="d-flex w-50 justify-content-center" style="gap: 10px;">
+              <button class="btn btn-theme-2 mt-1 font-weight-bold" data-toggle="modal" data-target="#virtualTourModal">
+                <span>Request a Private Conversation</span>
+              </button>
+              <button class="btn btn-theme-2 mt-1 font-weight-bold w-100" data-toggle="modal"
+                data-target="#viewBrochureModal" data-title="View Brochure" data-btntext="Get Brochure">
+                View Brochure
+              </button>
+            </div>
           </div>
         </div>
       </div>
@@ -231,7 +249,7 @@
     </div>
   </div>
 
-  <!-- wall of loove -->
+  <!-- wall of love -->
   <section class="py-5">
     <div class="container text-center">
       <div class="info " data-aos="fade-up" data-aos-duration="1000">
@@ -331,11 +349,19 @@
             3. Visit and decide</h5>
           <p>Walk the site, feel the environment, and take your time to make a decision</p>
         </div>
+        <div class="col-12 d-flex justify-content-center align-items-center">
+          <div class="d-flex w-50 justify-content-center align-items-center" style="gap: 10px;">
+            <button class="btn btn-theme-2 mt-1 font-weight-bold" data-toggle="modal" data-target="#virtualTourModal">
+              <span>Request a Private Conversation</span>
+            </button>
+            <button class="btn btn-theme-2 mt-1 font-weight-bold" data-toggle="modal" data-target="#viewBrochureModal"
+              data-title="View Brochure" data-btntext="Get Brochure">
+              View Brochure
+            </button>
+          </div>
+        </div>
       </div>
-      <button class="btn btn-theme mt-3 d-inline-flex flex-column " data-toggle="modal" data-target="#virtualTourModal">
-        <span>Request a Private Conversation</span>
-        View Brochure
-      </button>
+
     </div>
   </section>
 
@@ -401,11 +427,15 @@
         <div class="col-md-6 col-12" style="display: flex; justify-content:center; align-items: end;">
           <div class="content py-2"
             style="display: flex; align-items: center; justify-content:center; flex-direction: column; gap: 10px;">
-            <button class="btn btn-theme d-flex flex-column" data-toggle="modal" data-target="#virtualTourModal">
-              <span>Request a Private Conversation</span>
+            <button class="btn btn-theme w-100" data-toggle="modal" data-target="#virtualTourModal">
+              Request a Private Conversation
+            </button>
+            <button class="btn btn-theme w-100" data-toggle="modal" data-target="#viewBrochureModal"
+              data-title="View Brochure" data-btntext="Get Brochure">
               View Brochure
             </button>
-            <button class="btn btn-theme mt-3" data-toggle="modal" data-target="#virtualTourModal">
+            <button class="btn btn-theme w-100" data-toggle="modal" data-target="#viewBrochureModal"
+              data-title="Take a Virtual Tour" data-btntext="Submit">
               Take a virtual tour of your hill home!
             </button>
             <img src="assets/pointer.png" alt="" class="img-fluid">
@@ -433,7 +463,7 @@
   </section>
 
 
-  <!-- Modal -->
+  <!-- Modal 1-->
   <div class="modal fade custom-modal" id="virtualTourModal" tabindex="-1">
     <div class="modal-dialog modal-dialog-centered">
       <div class="modal-content custom-modal-content">
@@ -475,6 +505,43 @@
 
 
             <button type="submit" class="modern-btn">
+              Submit
+            </button>
+
+          </form>
+        </div>
+
+      </div>
+    </div>
+  </div>
+  <!-- Modal 2 (view brochure)-->
+  <div class="modal fade custom-modal" id="viewBrochureModal" tabindex="-1">
+    <div class="modal-dialog modal-dialog-centered">
+      <div class="modal-content custom-modal-content">
+
+        <!-- Header -->
+        <div class="modal-header custom-header">
+          <h5 class="modal-title" id="modalHeading">View Brochure</h5>
+          <button type="button" class="close-btn" data-dismiss="modal">
+            &times;
+          </button>
+        </div>
+
+        <!-- Body -->
+        <div class="modal-body">
+          <form id="ajax-header-contact-2" class="modern-form">
+
+            <div class="form-group">
+              <input type="text" name="name1" required>
+              <label>Your Full Name</label>
+            </div>
+
+            <div class="form-group">
+              <input type="tel" name="phone" required>
+              <label>Phone Number</label>
+            </div>
+
+            <button type="submit" class="modern-btn" id="modalSubmitBtn">
               Get Brochure
             </button>
 
@@ -484,7 +551,6 @@
       </div>
     </div>
   </div>
-
 
 
 
@@ -509,7 +575,17 @@
       });
     });
   </script>
+  <script>
+    $('#viewBrochureModal').on('show.bs.modal', function (event) {
+      var button = $(event.relatedTarget);
+      var title = button.data('title');
+      var btnText = button.data('btntext');
 
+      var modal = $(this);
+      modal.find('#modalHeading').text(title);
+      modal.find('#modalSubmitBtn').text(btnText);
+    });
+  </script>
 </body>
 
 </html>
