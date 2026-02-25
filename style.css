@@ -175,7 +175,7 @@ body {
   .banner-bottom-strip {
     /* background: rgba(255, 255, 255, 0.77); */
     position: absolute;
-    bottom: 50px;
+    bottom: 60px;
     left: 0;
     right: 0;
     font-size: 1.2rem;
@@ -183,7 +183,7 @@ body {
   }
 
   .section-1 {
-    padding-top: 80px;
+    padding-top: 60px;
   }
 
   .section-2 {
@@ -211,7 +211,7 @@ body {
   }
 
   .section-4 {
-    margin-top: 70px !important;
+    margin-top: 60px !important;
     padding: 15px 0px !important;
   }
 
@@ -235,7 +235,7 @@ body {
 
   .btn-theme-2 {
     padding: 14px 12px;
-    font-size: 14px;
+    font-size: 13px;
     margin-left: 0px;
   }
 
@@ -474,9 +474,9 @@ body {
 
 /* Sections */
 .section-4 {
-  margin-top: 100px !important;
-  margin-bottom: 0px !important;
-  padding: 80px 0px !important;
+  margin-top: 100px;
+  margin-bottom: 0px;
+  padding: 80px 0px;
 }
 
 .section-5 {
