@@ -88,7 +88,7 @@ async function handleFormSubmit(formId) {
     try {
       const response = await fetch(apiUrl, requestOptions);
 
-      if (!response.ok) {
+      if (response.ok) {
         throw new Error(`HTTP error! status: ${response.status}`);
       }
 
@@ -96,7 +96,6 @@ async function handleFormSubmit(formId) {
       console.log("Response data:", data);
 
       // Redirect to thankyou.html after successful form submission
-      // window.location.href = "/woodsBrochure.pdf"; // Change the path if necessary
       // Redirect based on form ID
       if (formId === "ajax-header-contact") {
         // First form → Thank You Page
